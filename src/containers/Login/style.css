@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+.login-contianer {
+  width: 700px;
+  height: 440px;
+  background-color: #FFFFFF;
+  margin: 0px auto;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+}
+
+.left-container {
+  width: 60%;
+  height: 440px;
+  background-color: #FFF;
+}
+
+.right-container {
+  width: 40%;
+  height: 440px;
+  background-image: linear-gradient(to bottom right, #66BFD1, #1080BF);
+}
+
+.login-topic {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 62px !important;font-family: 'Work Sans', sans-serif;
+
+}
+
+.social-media-login {
+  width: 160px;
+  height: 40px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px !important;
+}
+
+.divider-login {
+  width: 54%;
+  margin: 0px auto;
+}
+
+.login-input-container {
+  width: 204px;
+  height: auto;
+  margin: 0px auto;
+}
+
+.login-inputs {
+  margin-top: 16px;
+}
+
+.login-btn {
+  width: 180px;
+  margin-top: 12px !important;
+  margin-left: 12px !important;
+  font-family: 'Work Sans', sans-serif !important;
+}
+
+.new-account-topic {
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 110px !important;
+}
+
+.new-account-text {
+  font-size: 14px;
+  color: #FAFAFA;
+  text-align: center;
+  font-weight: bold;
+  width: 75%;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+
+.create-account-btn {
+  margin-left: 69px !important;
+  margin-top: 20px !important;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+}
+
+.mobile-create-account {
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Work Sans', sans-serif;
+  visibility: hidden;
+}
+
+.login-deco {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 760px) {
+  .right-container {
+    display: none;
+  }
+  .login-contianer {
+    width: 90% !important;
+  }
+  .left-container {
+    margin: 0px auto !important;
+  }
+  .mobile-create-account {
+    visibility: visible;
+  }
+}
